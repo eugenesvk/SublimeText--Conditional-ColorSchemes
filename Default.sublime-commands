@@ -1,6 +1,8 @@
 [
-	{
-		"caption": "Conditional ColorSchemes:   Edit Settings",
-		"command": "open_file", "args": { "file": "${packages}/User/ConditionalColorSchemes.sublime-settings" },
-	},
+{"caption":"Preferences: Conditional ColorSchemes Settings"	,"command":"edit_settings"	,"args":{
+  "base_file":"${packages}/Conditional ColorSchemes/Example.sublime-settings",
+  "user_file":"${packages}/User/ConditionalColorSchemes.sublime-settings",
+  "default"  :"{\n\t$0\n}\n"}},
+{"caption":"Preferences: Conditional ColorSchemes Settings: User"   	,"command":"open_file"	,"args":{"file":"${packages}/User/ConditionalColorSchemes.sublime-settings"}},
+{"caption":"Preferences: Conditional ColorSchemes Settings: Default"	,"command":"open_file"	,"args":{"file":"${packages}/Conditional ColorSchemes/Example.sublime-settings"}},
 ]
